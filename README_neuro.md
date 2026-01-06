@@ -42,10 +42,10 @@ ArtifyX/
 ├── app.py                    # Streamlit application
 ├── style_transfer.py          # Core NST logic
 ├── NeuroStyleX_NST.ipynb      # Research & experimentation notebook
-├── requirements.txt           # Dependencies
+├── requirements_neuro.txt           # Dependencies
 ├── .gitignore
 │
-├── neuro/                     # Virtual environment (not uploaded to GitHub)
+├── neuro/                     # Virtual environment 
 │
 ├── assets/
 │   ├── content.jpg
@@ -55,7 +55,7 @@ ArtifyX/
 │   ├── final_output.png
 │   ├── stylized_output.mp4
 │
-└── README.md
+└── README_neuro.md
 ```
 
 > ⚠️ Note: Virtual environment folders (Lib/, Scripts/, Include/) are intentionally excluded from GitHub.
