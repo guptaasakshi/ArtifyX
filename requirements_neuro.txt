@@ -1,8 +1,0 @@
-tensorflow>=2.9.0
-tensorflow-hub>=0.13.0
-numpy>=1.21.0
-Pillow>=9.0.0
-opencv-python>=4.7.0
-matplotlib>=3.6.0
-tqdm>=4.64.0
-streamlit>=1.25.0
