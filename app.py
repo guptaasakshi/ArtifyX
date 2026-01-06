@@ -42,6 +42,7 @@ style_strength = st.sidebar.slider(
 )
 
 st.sidebar.info("⚡ Fast NST ignores style strength (real-time model)")
+st.sidebar.info( "🎨 Tip: Use paintings or abstract art as style images for stronger results.")
 
 # ---------------------------
 # MAIN UI
@@ -75,10 +76,28 @@ with col1:
 # STYLE UPLOAD (ONLY ONE – FAST & STABLE)
 # ---------------------------
 with col2:
+    with st.expander("🎨 Style Image Guidelines"):
+        st.markdown("""
+        ### For best artistic results, upload:
+        - 🎭 Paintings (oil, watercolor, acrylic)
+        - 🌀 Abstract or textured artwork
+        - 🌈 Images with strong colors & contrast
+                    
+        ❌ Avoid normal photographs as style images.
+        """)
+    with st.expander("ℹ️ Why does this matter?"):
+        st.markdown("""
+        The neural style model extracts **texture and color patterns**
+        from the style image. Artistic images contain rich features,
+        while normal photos produce minimal stylization.
+        """)
+
     style_file = st.file_uploader(
         "Upload Style Image",
         type=["jpg", "jpeg", "png"]
     )
+
+
 
 # ---------------------------
 # GENERATE

@@ -34,6 +34,17 @@ ArtifyX is built upon a **Dual-Phase Neural Stylization Engine**, consisting of:
 
 ---
 
+## 🎨 Choosing the Right Style Image
+
+For optimal results, use:
+- Artistic paintings or abstract art
+- Images with rich textures and bold colors
+
+Avoid using normal photographs as style images, 
+as they produce minimal stylization effects.
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -66,7 +77,7 @@ ArtifyX/
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/your-username/ArtifyX.git
+git clone https://github.com/guptaasakshi/ArtifyX.git
 cd ArtifyX
 ```
 
